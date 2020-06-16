@@ -1,4 +1,4 @@
-### _Quest for the best newsletters around the world_ ☞ [`tripu.github.io/newsletters`](https://tripu.github.io/newsletters/)
+### _Quest for the best newsletters around the world_ :point_right: [`tripu.github.io/newsletters`](https://tripu.github.io/newsletters/)
 
 Copyright &copy; 2020 tripu ([`t@tripu.info`](mailto:t@tripu.info), [`https://tripu.info`](https://tripu.info/))
 
