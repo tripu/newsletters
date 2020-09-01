@@ -1,38 +1,320 @@
 <!DOCTYPE html>
 
-<!-- Canōn — https://github.com/tripu/Canon
-     Copyright © 2014–2018 tripu <t@tripu.info> https://tripu.info -->
-
-<!-- Reminder: replace @@PLACEHOLDERS@@ -->
-
-<html lang="en-GB" class="no-js">    <!-- ← Replace with page @@LANGUAGE@@ -->
+<html lang="en-GB" class="no-js">
 
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <title>@@TITLE@@</title>
+        <title>Newsletters</title>
         <meta name="application-name" content="@@NAME@@" />
         <meta name="author" content="@@AUTHOR@@" />
         <meta name="description" content="@@DESCRIPTION@@" />
         <meta name="keywords" content="@@KEYWORDS@@" />
-        <link rel="stylesheet" type="text/css" href="style.css" />
+        <link rel="stylesheet" type="text/css" href="assets/style.css" />
     </head>
 
     <body>
 
         <header>
-            <h1>@@TITLE@@</h1>
+            <section>
+                <h1>Newsletters</h1>
+                <p>by <a href="https://tripu.info/">tripu</a></p>
+            </section>
+            <section>
+                <p><em>Quest for the best newsletters around the world</em></p>
+                <p><a href="https://github.com/tripu/newsletters">GH project</a></p>
+            </section>
         </header>
 
         <main>
-            <p>@@CONTENT@@</p>
+            <table id="data">
+                <thead>
+                    <tr>
+                        <th>Continent</th>
+                        <th>Country</th>
+                        <th>Language</th>
+                        <th>Bias</th>
+                        <th>Outlet</th>
+                        <th>Newsletter</th>
+                        <th>Periodicity</th>
+                        <th>Completeness</th>
+                        <th>Openness</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Eu<span class="e">rope</span></td>
+                        <td>🇪🇸<span class="e">&nbsp;Spain</span></td>
+                        <td>🇪🇸<span class="e">&nbsp;Spanish</span></td>
+                        <td>[n/a]</td>
+                        <td><img src="https://www.lavanguardia.com/rsc/images/ico/favicon.ico" />La Vanguardia</td>
+                        <td>Las claves de hoy</td>
+                        <td>M<span class="e">o</span>&nbsp;T<span class="e">u</span>&nbsp;W<span class="e">e</span>&nbsp;T<span class="e">h</span>&nbsp;F<span class="e">r</span>&nbsp;<span class="w">•</span><span class="e w">&nbsp;</span>&nbsp;<span class="w">•</span><span class="e w">&nbsp;</span></td>
+                        <td>[n/a]</td>
+                        <td>[n/a]</td>
+                    </tr>
+                    <tr>
+                        <td>Eu<span class="e">rope</span></td>
+                        <td>🇪🇸<span class="e">&nbsp;Spain</span></td>
+                        <td>🇪🇸<span class="e">&nbsp;Spanish</span></td>
+                        <td>[n/a]</td>
+                        <td><img src="https://www.lavanguardia.com/rsc/images/ico/favicon.ico" />La Vanguardia</td>
+                        <td>La Vanguardia selección</td>
+                        <td>M<span class="e">o</span>&nbsp;T<span class="e">u</span>&nbsp;W<span class="e">e</span>&nbsp;T<span class="e">h</span>&nbsp;F<span class="e">r</span>&nbsp;<span class="w">•</span><span class="e w">&nbsp;</span>&nbsp;<span class="w">•</span><span class="e w">&nbsp;</span></td>
+                        <td>[n/a]</td>
+                        <td>[n/a]</td>
+                    </tr>
+                    <tr>
+                        <td>Eu<span class="e">rope</span></td>
+                        <td>🇪🇸<span class="e">&nbsp;Spain</span></td>
+                        <td>🇪🇸<span class="e">&nbsp;Spanish</span></td>
+                        <td>[n/a]</td>
+                        <td><img src="https://elpais.com/pf/resources/images/favicon.ico?d=338" />El País</td>
+                        <td>El País de la mañana</td>
+                        <td>M<span class="e">o</span>&nbsp;T<span class="e">u</span>&nbsp;W<span class="e">e</span>&nbsp;T<span class="e">h</span>&nbsp;F<span class="e">r</span>&nbsp;<span class="w">•</span><span class="e w">&nbsp;</span>&nbsp;<span class="w">•</span><span class="e w">&nbsp;</span></td>
+                        <td>[n/a]</td>
+                        <td>[n/a]</td>
+                    </tr>
+                    <tr>
+                        <td>Eu<span class="e">rope</span></td>
+                        <td>🇪🇸<span class="e">&nbsp;Spain</span></td>
+                        <td>🇪🇸<span class="e">&nbsp;Spanish</span></td>
+                        <td>[n/a]</td>
+                        <td><img src="https://elpais.com/pf/resources/images/favicon.ico?d=338" />El País</td>
+                        <td>El País de la noche</td>
+                        <td>M<span class="e">o</span>&nbsp;T<span class="e">u</span>&nbsp;W<span class="e">e</span>&nbsp;T<span class="e">h</span>&nbsp;F<span class="e">r</span>&nbsp;<span class="w">•</span><span class="e w">&nbsp;</span>&nbsp;<span class="w">•</span><span class="e w">&nbsp;</span></td>
+                        <td>[n/a]</td>
+                        <td>[n/a]</td>
+                    </tr>
+                    <tr>
+                        <td>Eu<span class="e">rope</span></td>
+                        <td>🇪🇸<span class="e">&nbsp;Spain</span></td>
+                        <td>🇬🇧<span class="e">&nbsp;English</span></td>
+                        <td>[n/a]</td>
+                        <td><img src="https://elpais.com/pf/resources/images/favicon.ico?d=338" />El País</td>
+                        <td>El País, English edition</td>
+                        <td>•<span class="e">&nbsp;</span>&nbsp;•<span class="e">&nbsp;</span>&nbsp;•<span class="e">&nbsp;</span>&nbsp;•<span class="e">&nbsp;</span>&nbsp;•<span class="e">&nbsp;</span>&nbsp;<span class="w">S</span><span class="e w">a</span>&nbsp;<span class="w">•</span><span class="e w">&nbsp;</td>
+                        <td>[n/a]</td>
+                        <td>[n/a]</td>
+                    </tr>
+                    <tr>
+                        <td>Eu<span class="e">rope</span></td>
+                        <td>🇪🇸<span class="e">&nbsp;Spain</span></td>
+                        <td>🇪🇸<span class="e">&nbsp;Spanish</span></td>
+                        <td>[n/a]</td>
+                        <td><img src="https://www.elmundo.es/favicon_32x32.png" />El Mundo</td>
+                        <td>Últimas noticias de portada</td>
+                        <td>M<span class="e">o</span>&nbsp;T<span class="e">u</span>&nbsp;W<span class="e">e</span>&nbsp;T<span class="e">h</span>&nbsp;F<span class="e">r</span>&nbsp;<span class="w">S</span><span class="e w">a</span>&nbsp;<span class="w">S</span><span class="e w">u</span>&nbsp;</td>
+                        <td>[n/a]</td>
+                        <td>[n/a]</td>
+                    </tr>
+                    <tr>
+                        <td>Eu<span class="e">rope</span></td>
+                        <td>🇪🇸<span class="e">&nbsp;Spain</span></td>
+                        <td>🇪🇸<span class="e">&nbsp;Spanish</span></td>
+                        <td>[n/a]</td>
+                        <td><img src="https://static1.abc.es/comun/2018/img/iconos-metas/favicon-16x16.png" />ABC</td>
+                        <td>Las siete y media</td>
+                        <td>M<span class="e">o</span>&nbsp;T<span class="e">u</span>&nbsp;W<span class="e">e</span>&nbsp;T<span class="e">h</span>&nbsp;F<span class="e">r</span>&nbsp;<span class="w">S</span><span class="e w">a</span>&nbsp;<span class="w">S</span><span class="e w">u</span>&nbsp;</td>
+                        <td>[n/a]</td>
+                        <td>[n/a]</td>
+                    </tr>
+                    <tr>
+                        <td>Eu<span class="e">rope</span></td>
+                        <td>🇮🇹<span class="e">&nbsp;Italy</span></td>
+                        <td>🇮🇹<span class="e">&nbsp;Italian</span></td>
+                        <td>[n/a]</td>
+                        <td><img src="https://www.repstatic.it/cless/main/nazionale/2013-v1/img/common/favicon/favicon.ico" />La Repubblica</td>
+                        <td>Anteprima Rep</td>
+                        <td>M<span class="e">o</span>&nbsp;T<span class="e">u</span>&nbsp;W<span class="e">e</span>&nbsp;T<span class="e">h</span>&nbsp;F<span class="e">r</span>&nbsp;<span class="w">S</span><span class="e w">a</span>&nbsp;<span class="w">S</span><span class="e w">u</span>&nbsp;</td>
+                        <td>[n/a]</td>
+                        <td>[n/a]</td>
+                    </tr>
+                    <tr>
+                        <td>Eu<span class="e">rope</span></td>
+                        <td>🇮🇹<span class="e">&nbsp;Italy</span></td>
+                        <td>🇮🇹<span class="e">&nbsp;Italian</span></td>
+                        <td>[n/a]</td>
+                        <td><img src="https://www.repstatic.it/cless/main/nazionale/2013-v1/img/common/favicon/favicon.ico" />La Repubblica</td>
+                        <td>Ultimo minuto, ore 13</td>
+                        <td>M<span class="e">o</span>&nbsp;T<span class="e">u</span>&nbsp;W<span class="e">e</span>&nbsp;T<span class="e">h</span>&nbsp;F<span class="e">r</span>&nbsp;<span class="w">•</span><span class="e w">&nbsp;</span>&nbsp;<span class="w">•</span><span class="e w">&nbsp;</span></td>
+                        <td>[n/a]</td>
+                        <td>[n/a]</td>
+                    </tr>
+                    <tr>
+                        <td>Eu<span class="e">rope</span></td>
+                        <td>🇮🇹<span class="e">&nbsp;Italy</span></td>
+                        <td>🇮🇹<span class="e">&nbsp;Italian</span></td>
+                        <td>[n/a]</td>
+                        <td><img src="https://www.repstatic.it/cless/main/nazionale/2013-v1/img/common/favicon/favicon.ico" />La Repubblica</td>
+                        <td>Ultimo minuto, ore 17</td>
+                        <td>M<span class="e">o</span>&nbsp;T<span class="e">u</span>&nbsp;W<span class="e">e</span>&nbsp;T<span class="e">h</span>&nbsp;F<span class="e">r</span>&nbsp;<span class="w">•</span><span class="e w">&nbsp;</span>&nbsp;<span class="w">•</span><span class="e w">&nbsp;</span></td>
+                        <td>[n/a]</td>
+                        <td>[n/a]</td>
+                    </tr>
+                    <tr>
+                        <td>Eu<span class="e">rope</span></td>
+                        <td>🇮🇹<span class="e">&nbsp;Italy</span></td>
+                        <td>🇮🇹<span class="e">&nbsp;Italian</span></td>
+                        <td>[n/a]</td>
+                        <td><img src="https://components2.corriereobjects.it/rcs_cor_corriere-layout/v1/assets/img/ext/favicon/favicon.ico?v1" />Corriere della Sera</td>
+                        <td>Ore 12</td>
+                        <td>M<span class="e">o</span>&nbsp;T<span class="e">u</span>&nbsp;W<span class="e">e</span>&nbsp;T<span class="e">h</span>&nbsp;F<span class="e">r</span>&nbsp;<span class="w">S</span><span class="e w">a</span>&nbsp;<span class="w">S</span><span class="e w">u</span>&nbsp;</td>
+                        <td>[n/a]</td>
+                        <td>[n/a]</td>
+                    </tr>
+                    <tr>
+                        <td>As<span class="e">ia</span></td>
+                        <td>🇯🇵<span class="e">&nbsp;Japan</span></td>
+                        <td>🇬🇧<span class="e">&nbsp;English</span></td>
+                        <td>[n/a]</td>
+                        <td><img src="https://cdn.japantimes.2xx.jp/wp-content/themes/jt_theme/library/img/japantimes-favicon.ico" />The Japan Times</td>
+                        <td>Take 5</td>
+                        <td>M<span class="e">o</span>&nbsp;T<span class="e">u</span>&nbsp;W<span class="e">e</span>&nbsp;T<span class="e">h</span>&nbsp;F<span class="e">r</span>&nbsp;<span class="w">•</span><span class="e w">&nbsp;</span>&nbsp;<span class="w">•</span><span class="e w">&nbsp;</span></td>
+                        <td>[n/a]</td>
+                        <td>[n/a]</td>
+                    </tr>
+                    <tr>
+                        <td>As<span class="e">ia</span></td>
+                        <td>🇯🇵<span class="e">&nbsp;Japan</span></td>
+                        <td>🇬🇧<span class="e">&nbsp;English</span></td>
+                        <td>[n/a]</td>
+                        <td><img src="https://cdn.japantimes.2xx.jp/wp-content/themes/jt_theme/library/img/japantimes-favicon.ico" />The Japan Times</td>
+                        <td>Today's top news</td>
+                        <td>M<span class="e">o</span>&nbsp;T<span class="e">u</span>&nbsp;W<span class="e">e</span>&nbsp;T<span class="e">h</span>&nbsp;F<span class="e">r</span>&nbsp;<span class="w">S</span><span class="e w">a</span>&nbsp;<span class="w">S</span><span class="e w">u</span>&nbsp;</td>
+                        <td>[n/a]</td>
+                        <td>[n/a]</td>
+                    </tr>
+                    <tr>
+                        <td>Eu<span class="e">rope</span></td>
+                        <td>🇬🇧<span class="e">&nbsp;<abbr title="United Kingdom">UK</abbr></span></td>
+                        <td>🇬🇧<span class="e">&nbsp;English</span></td>
+                        <td>[n/a]</td>
+                        <td>The Guardian</td>
+                        <td>Today</td>
+                        <td>M<span class="e">o</span>&nbsp;T<span class="e">u</span>&nbsp;W<span class="e">e</span>&nbsp;T<span class="e">h</span>&nbsp;F<span class="e">r</span>&nbsp;<span class="w">S</span><span class="e w">a</span>&nbsp;<span class="w">S</span><span class="e w">u</span>&nbsp;</td>
+                        <td>[n/a]</td>
+                        <td>[n/a]</td>
+                    </tr>
+                    <tr>
+                        <td>Eu<span class="e">rope</span></td>
+                        <td>🇬🇧<span class="e">&nbsp;<abbr title="United Kingdom">UK</abbr></span></td>
+                        <td>🇬🇧<span class="e">&nbsp;English</span></td>
+                        <td>[n/a]</td>
+                        <td>The Guardian</td>
+                        <td>Morning briefing</td>
+                        <td>M<span class="e">o</span>&nbsp;T<span class="e">u</span>&nbsp;W<span class="e">e</span>&nbsp;T<span class="e">h</span>&nbsp;F<span class="e">r</span>&nbsp;<span class="w">•</span><span class="e w">&nbsp;</span>&nbsp;<span class="w">•</span><span class="e w">&nbsp;</span></td>
+                        <td>[n/a]</td>
+                        <td>[n/a]</td>
+                    </tr>
+                    <tr>
+                        <td>Eu<span class="e">rope</span></td>
+                        <td>🇬🇧<span class="e">&nbsp;<abbr title="United Kingdom">UK</abbr></span></td>
+                        <td>🇬🇧<span class="e">&nbsp;English</span></td>
+                        <td>[n/a]</td>
+                        <td>The Telegraph</td>
+                        <td>Front page AM</td>
+                        <td>M<span class="e">o</span>&nbsp;T<span class="e">u</span>&nbsp;W<span class="e">e</span>&nbsp;T<span class="e">h</span>&nbsp;F<span class="e">r</span>&nbsp;<span class="w">•</span><span class="e w">&nbsp;</span>&nbsp;<span class="w">•</span><span class="e w">&nbsp;</span></td>
+                        <td>[n/a]</td>
+                        <td>[n/a]</td>
+                    </tr>
+                    <tr>
+                        <td>Eu<span class="e">rope</span></td>
+                        <td>🇬🇧<span class="e">&nbsp;<abbr title="United Kingdom">UK</abbr></span></td>
+                        <td>🇬🇧<span class="e">&nbsp;English</span></td>
+                        <td>[n/a]</td>
+                        <td>The Telegraph</td>
+                        <td>Front page PM</td>
+                        <td>M<span class="e">o</span>&nbsp;T<span class="e">u</span>&nbsp;W<span class="e">e</span>&nbsp;T<span class="e">h</span>&nbsp;F<span class="e">r</span>&nbsp;<span class="w">•</span><span class="e w">&nbsp;</span>&nbsp;<span class="w">•</span><span class="e w">&nbsp;</span></td>
+                        <td>[n/a]</td>
+                        <td>[n/a]</td>
+                    </tr>
+                    <tr>
+                        <td>Eu<span class="e">rope</span></td>
+                        <td>🇬🇧<span class="e">&nbsp;<abbr title="United Kingdom">UK</abbr></span></td>
+                        <td>🇬🇧<span class="e">&nbsp;English</span></td>
+                        <td>[n/a]</td>
+                        <td>The Telegraph</td>
+                        <td>Front page</td>
+                        <td>•<span class="e">&nbsp;</span>&nbsp;•<span class="e">&nbsp;</span>&nbsp;•<span class="e">&nbsp;</span>&nbsp;•<span class="e">&nbsp;</span>&nbsp;•<span class="e">&nbsp;</span>&nbsp;<span class="w">S</span><span class="e w">a</span><span class="e w">&nbsp;<span class="w">S</span><span class="e w">u</span>&nbsp;</td>
+                        <td>[n/a]</td>
+                        <td>[n/a]</td>
+                    </tr>
+                    <tr>
+                        <td>Eu<span class="e">rope</span></td>
+                        <td>🇬🇧<span class="e">&nbsp;<abbr title="United Kingdom">UK</abbr></span></td>
+                        <td>🇬🇧<span class="e">&nbsp;English</span></td>
+                        <td>[n/a]</td>
+                        <td>Financial Times</td>
+                        <td>In today's FT</td>
+                        <td>M<span class="e">o</span>&nbsp;T<span class="e">u</span>&nbsp;W<span class="e">e</span>&nbsp;T<span class="e">h</span>&nbsp;F<span class="e">r</span>&nbsp;<span class="w">•</span><span class="e w">&nbsp;</span>&nbsp;<span class="w">•</span><span class="e w">&nbsp;</span></td>
+                        <td>[n/a]</td>
+                        <td>[n/a]</td>
+                    </tr>
+                    <tr>
+                        <td>Eu<span class="e">rope</span></td>
+                        <td>🇬🇧<span class="e">&nbsp;<abbr title="United Kingdom">UK</abbr></span></td>
+                        <td>🇬🇧<span class="e">&nbsp;English</span></td>
+                        <td>[n/a]</td>
+                        <td>The Economist</td>
+                        <td>The Economist today</td>
+                        <td>M<span class="e">o</span>&nbsp;T<span class="e">u</span>&nbsp;W<span class="e">e</span>&nbsp;T<span class="e">h</span>&nbsp;F<span class="e">r</span>&nbsp;<span class="w">•</span><span class="e w">&nbsp;</span>&nbsp;<span class="w">•</span><span class="e w">&nbsp;</span></td>
+                        <td>[n/a]</td>
+                        <td>[n/a]</td>
+                    </tr>
+                    <tr>
+                        <td>Eu<span class="e">rope</span></td>
+                        <td>🇬🇧<span class="e">&nbsp;<abbr title="United Kingdom">UK</abbr></span></td>
+                        <td>🇬🇧<span class="e">&nbsp;English</span></td>
+                        <td>[n/a]</td>
+                        <td>The Economist</td>
+                        <td>The Economist this week</td>
+                    </tr>
+                </tbody>
+            </table>
         </main>
 
         <footer>
-            <p>@@CODA@@</p>
+            <section>
+                <h2>Filters</h2>
+                <form>
+                    <label for="country">Country</label>
+                    <optgroup id="country">
+                        <option>foo</option>
+                        <option>bar</option>
+                        <option>baz</option>
+                    </optgroup>
+                    <label for="language">Country</label>
+                    <optgroup id="language">
+                        <option>foo</option>
+                        <option>bar</option>
+                        <option>baz</option>
+                    </optgroup>
+                    <label for="bias">Country</label>
+                    <optgroup id="bias">
+                        <option>foo</option>
+                        <option>bar</option>
+                        <option>baz</option>
+                    </optgroup>
+                </form>
+            </section>
+            <section>
+                <h2>Legend</h2>
+                <dl>
+                    <dt>Bias</dt>
+                    <dd></dd>
+                    <dt>Completeness</dt>
+                    <dd></dd>
+                    <dt>Openness</dt>
+                    <dd></dd>
+                </dl>
+            </section>
         </footer>
 
-        <script src="behaviour.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/tablesort.min.js"
+            integrity="sha512-F/gIMdDfda6OD2rnzt/Iyp2V9JLHlFQ+EUyixDg9+rkwjqgW1snpkpx7FD5FV1+gG2fmFj7I3r6ReQDUidHelA=="
+            crossorigin="anonymous"></script>
+        <script src="assets/behaviour.js"></script>
 
     </body>
 

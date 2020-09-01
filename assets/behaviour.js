@@ -5,3 +5,4 @@ html.classList.remove('no-js');
 html.classList.add('js');
 
 // @@BEHAVIOUR@@
+new Tablesort(document.getElementById('data'));

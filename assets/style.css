@@ -1,5 +1,112 @@
-html.js main p:after {
-    content: ' — JS ✓';
+/*---------------- Copied from https://getbootstrap.com/docs/4.5/layout/overview/#responsive-breakpoints ----------------*/
+
+/* Extra small devices (portrait phones, less than 576px)
+   No media query for `xs` since this is the default in Bootstrap */
+
+body {
+	font-family: sans-serif;
 }
 
-/* ↑ Replace with @@STYLE@@ */
+table {
+	width: 100%;
+}
+
+table, thead, tbody, tr {
+	/* border: 1px solid black; */
+}
+
+th {
+	text-align: left;
+}
+
+.e {
+	display: none;
+	visibility: hidden;
+}
+
+.w {
+	color: red;
+}
+
+td:nth-child(4),
+td:nth-child(8),
+td:nth-child(9) {
+	color: #a0a0a0;
+}
+
+td:nth-child(5) img {
+	display: none;
+	visibility: hidden;
+	height: 1rem;
+	margin: 0 .25rem 0 0;
+	vertical-align: middle;
+}
+
+td:nth-child(6) {
+	/* font-weight: bold; */
+	font-style: italic;
+}
+
+td:nth-child(7) {
+	font-family: monospace;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	.e {
+		display: inline;
+		visibility: visible;
+	}	
+	td:nth-child(5) img {
+		display: inline;
+		visibility: visible;
+	}
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+
+/*---------------- Copied from https://tristen.ca/tablesort/tablesort.css ----------------*/
+
+th[role=columnheader]:not(.no-sort) {
+	cursor: pointer;
+}
+
+th[role=columnheader]:not(.no-sort):after {
+	content: '';
+	float: right;
+	margin-top: 7px;
+	border-width: 0 4px 4px;
+	border-style: solid;
+	border-color: #404040 transparent;
+	visibility: hidden;
+	opacity: 0;
+	-ms-user-select: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+}
+
+th[aria-sort=ascending]:not(.no-sort):after {
+	border-bottom: none;
+	border-width: 4px 4px 0;
+}
+
+th[aria-sort]:not(.no-sort):after {
+	visibility: visible;
+	opacity: 0.4;
+}
+
+th[role=columnheader]:not(.no-sort):hover:after {
+	visibility: visible;
+	opacity: 1;
+}
