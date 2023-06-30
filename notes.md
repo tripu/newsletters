@@ -40,3 +40,11 @@
   - The New Yorker
     * The daily (L-D)
     * This week's issue (M)
+
+---
+
+Japan English-language newspapers:
+
+* https://the-japan-news.com/
+* http://www.asahi.com/ajw/
+* http://mainichi.jp/english/
